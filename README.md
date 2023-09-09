@@ -7,6 +7,10 @@ This project contains a virtually empty website for Thalia. It is a starting poi
 new developers, to try adding a feature quickly, without the distraction and intimidation 
 of a large codebase.
 
+There is an example issue that you can try to implement in this project. It is a realistic
+issue that could even one day be implemented in the real concrexit. You can find the issue
+here: [#1](https://github.com/svthalia/hello-concrexit-tutorial/issues/1).
+
 
 ## Usage
 
