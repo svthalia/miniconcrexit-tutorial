@@ -1,0 +1,12 @@
+#accentbar {
+  position: -webkit-sticky;
+  position: sticky;
+  background: var(--primary);
+  height: 5px;
+  top: 0;
+  z-index: 1020;
+}
+
+:root {
+  --primary: #E62272;
+}

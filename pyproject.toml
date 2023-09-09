@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hello-concrexit-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Job Doesburg <job.doesburg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.2.5"
+django-bootstrap5 = "^23.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
