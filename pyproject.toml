@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "hello-concrexit-tutorial"
+name = "miniconcrexit"
 version = "0.1.0"
-description = ""
-authors = ["Job Doesburg <job.doesburg@gmail.com>"]
+description = "Small and unintimidating version of concrexit, for new people to try out."
+authors = ["Thalia Technicie <www@thalia.nu>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.8"

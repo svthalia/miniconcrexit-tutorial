@@ -9,7 +9,7 @@ of a large codebase.
 
 There is an example issue that you can try to implement in this project. It is a realistic
 issue that could even one day be implemented in the real concrexit. You can find the issue
-here: [#1](https://github.com/svthalia/hello-concrexit-tutorial/issues/1).
+here: [#1](https://github.com/svthalia/miniconcrexit-tutorial/issues/1).
 
 
 ## Usage
@@ -21,7 +21,7 @@ Then:
 
 ```
 # If you haven't cloned this yet:
-git clone git@github.com:svthalia/hello-concrexit-tutorial.git
+git clone git@github.com:svthalia/miniconcrexit-tutorial.git
 
 # To install the dependencies:
 poetry install
@@ -45,8 +45,8 @@ python website/manage.py runserver
 > You do not have to do this yourself, this is just for reference.
 
 ```bash
-mkdir hello-concrexit-tutorial
-cd hello-concrexit-tutorial
+mkdir miniconcrexit-tutorial
+cd miniconcrexit-tutorial
 git init
 
 poetry init

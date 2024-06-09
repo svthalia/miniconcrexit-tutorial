@@ -2,3 +2,5 @@
 /website/static/
 /website/media/
 *.pyc
+
+.DS_Store
