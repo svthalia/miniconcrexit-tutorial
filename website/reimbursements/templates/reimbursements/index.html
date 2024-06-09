@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h1>My reimbursements</h1>
+    <p>
+        If you have made costs for Thalia, you can submit them here to request reimbursement.
+        Please note that you can only submit costs for which you have a receipt.
+        If you have any questions, please contact the treasurer.
+    </p>
+    <a href="{% url 'reimbursements:create' %}" class="btn btn-primary mb-3">Submit new reimbursement</a>
+
+    {% if object_list %}
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Created</th>
+                <th scope="col">Date incurred</th>
+                <th scope="col">Description</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Approved</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for object in object_list %}
+            <tr>
+                <th scope="row">{{ object.id }}</th>
+                <td>{{ object.created }}</td>
+                <td>{{ object.date_incurred }}</td>
+                <td>{{ object.description }}</td>
+                <td>€ {{ object.amount }}</td>
+                <td>{% if object.approved %}{{ object.approved_at }}{% else %}Pending{% endif %}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <div class="alert alert-info" role="alert">
+            <span>You have not submitted any reimbursements yet.</span>
+        </div>
+    {% endif %}
+{% endblock %}
