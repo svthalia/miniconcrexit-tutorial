@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/svthalia/miniconcrexit-tutorial?quickstart=1)
+
 # Hello, concrexit!
 
 Welcome to the mini-version of [concrexit](http://github.com/svthalia/concrexit). 
@@ -13,6 +15,13 @@ here: [#1](https://github.com/svthalia/miniconcrexit-tutorial/issues/1).
 
 
 ## Usage
+
+> To get set up very easily, without installing anything on your computer, you can use GitHub Codespaces. Press below to open a codespace for this project.
+> 
+> [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/svthalia/miniconcrexit-tutorial?quickstart=1)
+>
+> This will give you a full development environment with a proper Python version, Poetry, and the repository cloned. You should then continue at `poetry shell` below.
+
 
 The Technicie can help explain better, but here are some things you can do to get this
 project running on your own computer. First ensure you have Python and 
